@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Fredoka+One&display=swap');
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+	font-size:larger;
+	padding-top: 50px;
+
+
+}
+a {
+    text-decoration: none;
+}
+.logo{
+    font-family: 'Fredoka One', cursive;
+
+}
+nav{
+    font-size: larger;
+}
+.nav-item{
+    display: flex;
+    margin-left: auto;
+    margin-right: 2rem;
+/*     
+    text-align: right;
+    margin-right: 2rem;
+     */
+}
+
+footer{
+    background-color:#343A40 ;
+    color: white;
+}
+
+.icon-secondary {color: #5bc0de}
+
+.card img{
+	height: 250px;
+	
+}
+.price_wh{
+	width: 50px
+}
+#contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+}
